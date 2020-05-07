@@ -1,8 +1,8 @@
 {
-  "name": "introduction-website",
+  "name": "holorepository-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://fanbomeng97.github.io/Introduction-Website",
+  "homepage": "http://AbhinathK.github.io/HoloRepository-Website",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -11,12 +11,12 @@
     "semantic-ui-react": "^0.87.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,6 +34,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.2.0"
   }
 }
