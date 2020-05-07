@@ -13,10 +13,10 @@ class SharedFooter extends Component {
                     marginLeft: 'auto',
                     marginRight: 'auto',
                     marginBottom: '2em'}}/>
-                <div>Copyright (C) 2019 University College London</div>
+                <div>Copyright (C) 2020 University College London</div>
                 <div>
                     Read our{" "}
-                    <a href="https://github.com/nbckr/HoloRepository-Core">Source Code</a> and{" "}
+                    <a href="https://github.com/AppertaFoundation/HoloRepository-2020">Source Code</a> and{" "}
                     <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">Licence</a>
                 </div>
             </footer>

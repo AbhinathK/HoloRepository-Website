@@ -63,11 +63,23 @@ class SharedHeader extends Component {
                         as='a'
                         active={activeItem === 'github'}
                         onClick={this.handleItemClick}
-                        href= "https://github.com/nbckr/HoloRepository-Core"
+                        href= "https://github.com/AppertaFoundation/HoloRepository-2020"
                         position = 'right'
                     >
                         <Icon name = "github"/>
                         {"GitHub"}
+                    </Menu.Item>
+
+                    <Menu.Item
+                        name='previous'
+                        as='a'
+                        active={activeItem === 'previous'}
+                        onClick={this.handleItemClick}
+                        href= "https://github.com/nbckr/HoloRepository-Core"
+                        position = 'right'
+                    >
+                        <Icon name = "archive"/>
+                        {"Previous Version"}
                     </Menu.Item>
                 </Container>
             </Menu>

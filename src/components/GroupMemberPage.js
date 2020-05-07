@@ -33,7 +33,7 @@ class GroupMemberPage extends Component {
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column width={3}>
-                                <Image src="Images/wenjie.png" circular />
+                                <Image src="Images/Daren.png" circular />
                             </Grid.Column>
                             <Grid.Column width={13}>
                                 <Header as='h3' style={{ fontSize: '2em' }}>
@@ -48,7 +48,7 @@ class GroupMemberPage extends Component {
 
                         <Grid.Row>
                             <Grid.Column width={3}>
-                                <Image src="Images/wenjie.png" circular />
+                                <Image src="Images/immanuel.jpg" circular />
                             </Grid.Column>
                             <Grid.Column width={13}>
                                 <Header as='h3' style={{ fontSize: '2em' }}>
@@ -63,7 +63,7 @@ class GroupMemberPage extends Component {
 
                         <Grid.Row>
                             <Grid.Column width={3}>
-                                <Image src='https://react.semantic-ui.com/images/wireframe/image.png' circular />
+                                <Image src='Images/Abhinath1.png' circular />
                             </Grid.Column>
                             <Grid.Column width={13}>
                                 <Header as='h3' style={{ fontSize: '2em' }}>
@@ -78,7 +78,7 @@ class GroupMemberPage extends Component {
 
                         <Grid.Row>
                             <Grid.Column width={3}>
-                                <Image src="Images/fanbo.png" circular />
+                                <Image src="Images/carlo.jpg" circular />
                             </Grid.Column>
                             <Grid.Column width={13}>
                                 <Header as='h3' style={{ fontSize: '2em' }}>

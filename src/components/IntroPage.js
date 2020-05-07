@@ -7,7 +7,8 @@ import {
     Grid,
     Divider,
     Container,
-    Card
+    Card,
+    Image,
 } from "semantic-ui-react";
 
 class IntroPage extends Component {
@@ -65,8 +66,59 @@ class IntroPage extends Component {
                                 </p>
 
                                 <Header as='h3' style={{ fontSize: '2em' }}>
+                                HoloRepository 2020 Viewer
+                                </Header>
+                                <p style={{ fontSize: '1.2em' }}>
+                                    A python tool that incorporates a barebone version of HoloPipelines to segment and generate 3D models of various anatomical stuctures. 
+                                    These include the lungs, brain, kidneys, abdominals and bones. 
+                                    It works on your laptop/PC as a 3D viewer rendering images straight from CT/MRI DICOM scan files locally, 
+                                    with its HoloPipelines segmentation component. 
+                                    This is intended for clinicians to present and teach with.
+                                </p>
+                                <Image src= "Images/HoloViewerArchitecture.png" style={{
+                                    width: 'auto',
+                                    height: 'auto',
+                                    display: 'block',
+                                    marginLeft: 'auto',
+                                    marginRight: 'auto',
+                                    marginBottom: '2em'}}/>
+                                <Divider />
+                                <Header as='h3' style={{ fontSize: '2em' }}>
+                                HoloRepository 2020 for NUCs
+                                </Header>
+                                <p style={{ fontSize: '1.2em' }}>
+                                    A python tool that incorporates a barebone version of HoloPipelines to segment and generate 3D models of various anatomical stuctures. 
+                                    These include the lungs, brain, kidneys, abdominals and bones. 
+                                    It works on your laptop/PC as a 3D viewer rendering images straight from CT/MRI DICOM scan files locally, 
+                                    with its HoloPipelines segmentation component. 
+                                    This is intended for clinicians to present and teach with.
+                                </p>
+                                <Image src= "Images/deploymentviewNuc.png" style={{
+                                    width: 'auto',
+                                    height: 'auto',
+                                    display: 'block',
+                                    marginLeft: 'auto',
+                                    marginRight: 'auto',
+                                    marginBottom: '2em'}}/>
+                                <Divider />
+                                <Header as='h3' style={{ fontSize: '2em' }}>
+                                HoloRepository 2020 for Azure and HoloLens 2
+                                </Header>
+                                <p style={{ fontSize: '1.2em' }}>
+                                    This is an Azure Cloud solution that works with the newly released HoloLens 2 and facilitates cloud storage of 3D models.
+                                </p>
+                                <Image src= "Images/NewArchitecture.png" style={{
+                                    width: 'auto',
+                                    height: 'auto',
+                                    display: 'block',
+                                    marginLeft: 'auto',
+                                    marginRight: 'auto',
+                                    marginBottom: '2em'}}/>
+                                <Divider />
+                                <Header as='h3' style={{ fontSize: '2em' }}>
                                     HoloRepositoryUI
                                 </Header>
+                                
                                 <p style={{ fontSize: '1.2em' }}>
                                     A web-based application that allows practitioners to browse their patients and manage the
                                     generation of 3D models sourced from imaging studies like CT or MRI scans. The client-side
@@ -78,7 +130,7 @@ class IntroPage extends Component {
                                     HoloPipelines
                                 </Header>
                                 <p style={{ fontSize: '1.2em' }}>
-                                    A cloud-based service that performs the automatic generation of 3D models from 2D image
+                                    A service that performs the automatic generation of 3D models from 2D image
                                     stacks. Pre-trained neural network models are deployed and accessed with this component
                                     alongside traditional techniques like Hounsfield value thresholding.
                                 </p>
@@ -117,6 +169,30 @@ class IntroPage extends Component {
                                     A simple application that demonstrates how to dynamically access 3D models stored in the
                                     HoloStorage. The scenes can be distributed alongside the Connector library and serve as
                                     examples and interactive documentation.
+                                </p>
+
+                                <Divider />
+                                <Header as='h3' style={{ fontSize: '2em' }}>
+                                    <a href="https://github.com/carlo3247/HoloRepository2020Viewer">HoloRepository 2020 Viewer</a>
+                                </Header>
+
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/CDra3Yh4Qwo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                                <p style={{ fontSize: '1.2em' }}>
+                                    This repository contains a python tool that incorporates a barebone version of HoloPipelines, 
+                                    wich is part of HoloRepository, to segment and generate 3D models of various anatomical stuctures.
+                                     These include the lungs, brain, kidneys, abdominals and bones.
+                                </p>
+
+                                <p style={{ fontSize: '1.2em' }}>
+                                Through the GUI interface, one can either process a new medical scan or open an existing hologram. 
+                                The created objects can be viewed through a proof of concept hologram viewer built on top of vtkplotter. 
+                                The 2D View will attempt to open the scan using the default program selected for the task. For this, we recommend mango.
+                                </p>
+                                    
+                                <p style={{ fontSize: '1.2em' }}>
+                                On Windows, the tool also includes an augmented reality (AR) view, which uses the HoloRegistration application. 
+                                This enables segmented organ models to be overlayed over the human body using the webcam.
                                 </p>
                             </Grid.Column>
                         </Grid>

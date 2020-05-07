@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import SharedHeader from "./shared/Header";
 import SharedFooter from "./shared/Footer";
-import BackgroundImage from "../images/background.jpg";
+import BackgroundImage from "../images/lung_capture_black.png";
 import {
     Header,
     Segment,
@@ -36,7 +36,7 @@ class HomePage extends Component {
                                     color: 'white',
                                     marginTop: 150
                                 }}>
-                                HoloRepository
+                                HoloRepository 2020
                             </p>
                             <p style={{
                                     fontSize: '1.8em',
@@ -44,9 +44,9 @@ class HomePage extends Component {
                                     color: 'white'
 
                                 }}>
-                                A system for transforming medical imaging studies such as CT or MRI scans into
-                                3-dimensional holograms, storing data on a cloud-based platform and making it available
-                                for other systems.
+                                The HoloRepository 2020 Proof of Concept is an open source FHIR enabled research project that enables 
+                                CT and MRI DICOM scans of the brain, lungs, chest, abdomen and kidneys to be rendered as a 3D view 
+                                using the latest techniques for organ segmentation.
                             </p>
                             <Button primary size='huge' as={Link} to="/intro"style={{marginTop: 50}}>
                                 Start Explore
@@ -60,53 +60,30 @@ class HomePage extends Component {
                     <Container textAlign='justified'>
                         <Grid container stackable verticalAlign='middle'>
                             <Grid.Row>
-                                <Grid.Column width={8}>
-                                    <Header as='h3' style={{ fontSize: '2em' }}>
-                                        HoloRepository UI
-                                    </Header>
-                                    <p style={{ fontSize: '1.1em' }}>
-                                        A web-based application that allows practitioners to browse their patients and manage the
-                                        generation of 3D models sourced from imaging studies like CT or MRI scans. The client-side
-                                        application is accompanied by an API server that is responsible for communicating with the
-                                        other components.
-                                    </p>
-                                    <Header as='h3' style={{ fontSize: '2em' }}>
-                                        HoloStorage and Accessor
-                                    </Header>
-                                    <p style={{ fontSize: '1.1em' }}>
-                                        A cloud-based storage for medical 3D models and associated metadata. Entirely hosted on
-                                        Microsoft Azure, a FHIR server stores the structured medical data and a Blob Storage server
-                                        provides for the binary holographic data.
-                                    </p>
-                                    <p style={{ fontSize: '1.1em' }}>
-                                        An enhanced facade, offering a consistent interface to the HoloStorage and translating
-                                        the public REST API to internal FHIR queries. To facilitate development of 3rd party
-                                        components, the interface comes with an interactive OpenAPI documentation.
-                                    </p>
-                                </Grid.Column>
-                                <Grid.Column floated='right' width={8}>
-                                    <Header as='h3' style={{ fontSize: '2em' }}>
-                                        HoloPipelines
-                                    </Header>
-                                    <p style={{ fontSize: '1.1em' }}>
-                                        A cloud-based service that performs the automatic generation of 3D models from 2D image
-                                        stacks. Pre-trained neural network models are deployed and accessed with this component
-                                        alongside traditional techniques like Hounsfield value thresholding.
-                                    </p>
-                                    <Header as='h3' style={{ fontSize: '2em' }}>
-                                        HoloLens App and StorageConnector
-                                    </Header>
-                                    <p style={{ fontSize: '1.1em' }}>
-                                        A simple application that demonstrates how to dynamically access 3D models stored in the
-                                        HoloStorage. The scenes can be distributed alongside the Connector library and serve as
-                                        examples and interactive documentation.
-                                    </p>
-                                    <p style={{ fontSize: '1.1em' }}>
-                                        A Unity library handling the runtime network connections from HoloLens applications to
-                                        the HoloStorage. Distributed as a separate UnityPackage, this is meant to facilitate
-                                        development of 3rd party applications that plug into the HoloRepository ecosystem.
-                                    </p>
-                                </Grid.Column>
+                                <Header as='h3' style={{ fontSize: '2em' }}>
+                                    <a href="https://github.com/carlo3247/HoloRepository2020Viewer">HoloRepository 2020 Viewer</a>
+                                </Header>
+                                <p style={{ fontSize: '1.1em' }}>
+                                A python tool that incorporates a barebone version of HoloPipelines to segment and generate 3D models of various anatomical stuctures. 
+                                These include the lungs, brain, kidneys, abdominals and bones. 
+                                It works on your laptop/PC as a 3D viewer rendering images straight from CT/MRI DICOM scan files locally, 
+                                with its HoloPipelines segmentation component. 
+                                This is intended for clinicians to present and teach with.
+                                </p>
+                                <Header as='h3' style={{ fontSize: '2em' }}>
+                                    <a href="https://github.com/AbhinathK/NUC-Optimized-HoloRepository-2020">HoloRepository 2020 for NUCs</a>
+                                </Header>
+                                <p style={{ fontSize: '1.1em' }}>
+                                    This is an optimised build for clinical Intel(™) NUCs that can show 3D views and simulate a
+                                        local FHIR enabled database for researchers looking to explore experimental results.
+                                        This is intended for clinical research settings.
+                                </p>
+                                <Header as='h3' style={{ fontSize: '2em' }}>
+                                    <a href="https://github.com/AbhinathK/CloudHoloRepository2020-Core">HoloRepository 2020 for Azure and HoloLens 2</a>
+                                </Header>
+                                <p style={{ fontSize: '1.1em' }}>
+                                This is an Azure Cloud solution that works with the newly released HoloLens 2 and facilitates cloud storage of 3D models.
+                                </p>
                             </Grid.Row>
                         </Grid>
                     </Container>
