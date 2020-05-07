@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/HoloRepository-Website/static/css/main.eed2b97c.chunk.css",
-    "main.js": "/HoloRepository-Website/static/js/main.b86f7504.chunk.js",
-    "main.js.map": "/HoloRepository-Website/static/js/main.b86f7504.chunk.js.map",
-    "runtime~main.js": "/HoloRepository-Website/static/js/runtime~main.387ca11a.js",
-    "runtime~main.js.map": "/HoloRepository-Website/static/js/runtime~main.387ca11a.js.map",
-    "static/js/2.3a8b4da0.chunk.js": "/HoloRepository-Website/static/js/2.3a8b4da0.chunk.js",
-    "static/js/2.3a8b4da0.chunk.js.map": "/HoloRepository-Website/static/js/2.3a8b4da0.chunk.js.map",
-    "index.html": "/HoloRepository-Website/index.html",
-    "precache-manifest.582f9ce0165b3127a88e9f55324bc4ba.js": "/HoloRepository-Website/precache-manifest.582f9ce0165b3127a88e9f55324bc4ba.js",
-    "service-worker.js": "/HoloRepository-Website/service-worker.js",
-    "static/css/main.eed2b97c.chunk.css.map": "/HoloRepository-Website/static/css/main.eed2b97c.chunk.css.map",
-    "static/media/background.jpg": "/HoloRepository-Website/static/media/background.451c266f.jpg"
+    "main.css": "/holorepository-website/static/css/main.eed2b97c.chunk.css",
+    "main.js": "/holorepository-website/static/js/main.cc69898b.chunk.js",
+    "main.js.map": "/holorepository-website/static/js/main.cc69898b.chunk.js.map",
+    "runtime~main.js": "/holorepository-website/static/js/runtime~main.e9780457.js",
+    "runtime~main.js.map": "/holorepository-website/static/js/runtime~main.e9780457.js.map",
+    "static/js/2.3a8b4da0.chunk.js": "/holorepository-website/static/js/2.3a8b4da0.chunk.js",
+    "static/js/2.3a8b4da0.chunk.js.map": "/holorepository-website/static/js/2.3a8b4da0.chunk.js.map",
+    "index.html": "/holorepository-website/index.html",
+    "precache-manifest.e8669ab5ac10d72a541e8ac0b52362e0.js": "/holorepository-website/precache-manifest.e8669ab5ac10d72a541e8ac0b52362e0.js",
+    "service-worker.js": "/holorepository-website/service-worker.js",
+    "static/css/main.eed2b97c.chunk.css.map": "/holorepository-website/static/css/main.eed2b97c.chunk.css.map",
+    "static/media/background.jpg": "/holorepository-website/static/media/background.451c266f.jpg"
   }
 }
