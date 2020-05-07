@@ -103,7 +103,7 @@ class IntroPage extends Component {
                                 (Next unit of Computing) in a clinical research environment. This edition provides an offline instance of HoloRepository, 
                                 as the architecture makes use of a local compute platform  and  simulates  a  local  FHIR  server.   Additionally, optimizations 
                                 made to tthe HoloPipelines component, allow the system to leverage the hardware of 
-                                the NUC for increased performance.
+                                the Intel NUC for increased performance.
                                 </p>
                                 <Image src= "Images/deploymentviewNuc.png" style={{
                                     width: 'auto',
