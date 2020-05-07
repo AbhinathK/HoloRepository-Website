@@ -15,11 +15,11 @@ class IntroPage extends Component {
     render() {
         return (
             <div>
-                <SharedHeader activeItem='Introduction'/>
+                <SharedHeader activeItem='Overview'/>
                     <Header
                         textAlign='center'
                         as='h1'
-                        content='Introduction'
+                        content='Overview'
                         style={{
                             fontSize: '4em',
                             fontWeight: 'normal',
@@ -64,16 +64,28 @@ class IntroPage extends Component {
                                     which is rapidly being adapted and also has a significant impact on the field of radiology [8],
                                     will connect the 3D models with existing patient health records.
                                 </p>
+                                <Divider />
 
                                 <Header as='h3' style={{ fontSize: '2em' }}>
                                 HoloRepository 2020 Viewer
                                 </Header>
+                                <iframe style={{display:'block'}} width="560" height="315" src="https://www.youtube.com/embed/CDra3Yh4Qwo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                                 <p style={{ fontSize: '1.2em' }}>
-                                    A python tool that incorporates a barebone version of HoloPipelines to segment and generate 3D models of various anatomical stuctures. 
-                                    These include the lungs, brain, kidneys, abdominals and bones. 
-                                    It works on your laptop/PC as a 3D viewer rendering images straight from CT/MRI DICOM scan files locally, 
-                                    with its HoloPipelines segmentation component. 
-                                    This is intended for clinicians to present and teach with.
+                                    This repository contains a python tool that incorporates a barebone version of HoloPipelines, 
+                                    wich is part of HoloRepository, to segment and generate 3D models of various anatomical stuctures.
+                                     These include the lungs, brain, kidneys, abdominals and bones.
+                                </p>
+
+                                <p style={{ fontSize: '1.2em' }}>
+                                Through the GUI interface, one can either process a new medical scan or open an existing hologram. 
+                                The created objects can be viewed through a proof of concept hologram viewer built on top of vtkplotter. 
+                                The 2D View will attempt to open the scan using the default program selected for the task. For this, we recommend mango.
+                                </p>
+                                    
+                                <p style={{ fontSize: '1.2em' }}>
+                                On Windows, the tool also includes an augmented reality (AR) view, which uses the HoloRegistration application. 
+                                This enables segmented organ models to be overlayed over the human body using the webcam.
                                 </p>
                                 <Image src= "Images/HoloViewerArchitecture.png" style={{
                                     width: 'auto',
@@ -87,11 +99,11 @@ class IntroPage extends Component {
                                 HoloRepository 2020 for NUCs
                                 </Header>
                                 <p style={{ fontSize: '1.2em' }}>
-                                    A python tool that incorporates a barebone version of HoloPipelines to segment and generate 3D models of various anatomical stuctures. 
-                                    These include the lungs, brain, kidneys, abdominals and bones. 
-                                    It works on your laptop/PC as a 3D viewer rendering images straight from CT/MRI DICOM scan files locally, 
-                                    with its HoloPipelines segmentation component. 
-                                    This is intended for clinicians to present and teach with.
+                                The NUC optimized HoloRepository 2020 is an edition of HoloRepository 2020, built and optimized for Intel NUCs 
+                                (Next unit of Computing) in a clinical research environment. This edition provides an offline instance of HoloRepository, 
+                                as the architecture makes use of a local compute platform  and  simulates  a  local  FHIR  server.   Additionally, optimizations 
+                                made to tthe HoloPipelines component, allow the system to leverage the hardware of 
+                                the NUC for increased performance.
                                 </p>
                                 <Image src= "Images/deploymentviewNuc.png" style={{
                                     width: 'auto',
@@ -170,30 +182,32 @@ class IntroPage extends Component {
                                     HoloStorage. The scenes can be distributed alongside the Connector library and serve as
                                     examples and interactive documentation.
                                 </p>
-
                                 <Divider />
                                 <Header as='h3' style={{ fontSize: '2em' }}>
-                                    <a href="https://github.com/carlo3247/HoloRepository2020Viewer">HoloRepository 2020 Viewer</a>
+                                    HoloSynthAccess
                                 </Header>
-
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/CDra3Yh4Qwo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
                                 <p style={{ fontSize: '1.2em' }}>
-                                    This repository contains a python tool that incorporates a barebone version of HoloPipelines, 
-                                    wich is part of HoloRepository, to segment and generate 3D models of various anatomical stuctures.
-                                     These include the lungs, brain, kidneys, abdominals and bones.
+                                HoloSynthAccess is a new component of the HoloRepository, which connects the system to the 
+                                Cancer Imaging Archive (CIA), one of the world’s largest open-access databases of medical images 
+                                for cancer research.  Users are able to use the web-application to query for imaging studies 
+                                of over 70 different anatomical structures.  Users can also find information such as modality, 
+                                date, and description of around 30.9 million radiology images. Studies can be downloaded directly to 
+                                your local machine for  further  research  and  use.  Additionally,  a  subset  of  these  studies  (modalities  and  anatomy 
+                                supported  by  HoloRepository)  can  be  sent  to  the  simulated  EHR,  which  can  then  be  used  for model generation.
                                 </p>
+                                <Divider />
+                                <Header as='h3' style={{ fontSize: '2em' }}>
+                                    HoloRegistration
+                                </Header>
+                                <p style={{ fontSize: '1.2em' }}>
+                                The HoloRegistation 2020 application allows segmented organ models to be overlayed over the human body 
+                                through an augmented reality experience. Organ models loaded can automatically locate themselves at the 
+                                correct position and size, moving along with the user.  It’s design also allows for custom organ configurations 
+                                to be added at anytime without any changes to code and it supports any type of camera, including webcams.
+                                </p>
+                                <Divider />
 
-                                <p style={{ fontSize: '1.2em' }}>
-                                Through the GUI interface, one can either process a new medical scan or open an existing hologram. 
-                                The created objects can be viewed through a proof of concept hologram viewer built on top of vtkplotter. 
-                                The 2D View will attempt to open the scan using the default program selected for the task. For this, we recommend mango.
-                                </p>
-                                    
-                                <p style={{ fontSize: '1.2em' }}>
-                                On Windows, the tool also includes an augmented reality (AR) view, which uses the HoloRegistration application. 
-                                This enables segmented organ models to be overlayed over the human body using the webcam.
-                                </p>
+                                
                             </Grid.Column>
                         </Grid>
                         <Card fluid style={{ marginTop: '3em'}}>

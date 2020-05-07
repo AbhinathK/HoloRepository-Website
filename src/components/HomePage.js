@@ -48,7 +48,7 @@ class HomePage extends Component {
                                 CT and MRI DICOM scans of the brain, lungs, chest, abdomen and kidneys to be rendered as a 3D view 
                                 using the latest techniques for organ segmentation.
                             </p>
-                            <Button primary size='huge' as={Link} to="/intro"style={{marginTop: 50}}>
+                            <Button primary size='huge' as={Link} to="/overview"style={{marginTop: 50}}>
                                 Start Explore
                                 <Icon name='right arrow' />
                             </Button>

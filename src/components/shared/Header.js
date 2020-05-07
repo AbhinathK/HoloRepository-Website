@@ -39,13 +39,13 @@ class SharedHeader extends Component {
                     </Menu.Item>
 
                     <Menu.Item
-                        name='Introduction'
-                        active={activeItem === 'Introduction'}
+                        name='Overview'
+                        active={activeItem === 'Overview'}
                         onClick={this.handleItemClick}
-                        as={Link} to="/intro"
+                        as={Link} to="/overview"
                     >
                         <Icon name = "list ul"/>
-                        {"Introduction"}
+                        {"Overview"}
                     </Menu.Item>
 
                     <Menu.Item
@@ -75,7 +75,7 @@ class SharedHeader extends Component {
                         as='a'
                         active={activeItem === 'previous'}
                         onClick={this.handleItemClick}
-                        href= "https://github.com/nbckr/HoloRepository-Core"
+                        href= "https://fanbomeng97.github.io/HoloRepository-Website/#/"
                         position = 'right'
                     >
                         <Icon name = "archive"/>

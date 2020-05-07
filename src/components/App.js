@@ -23,7 +23,7 @@ class App extends Component {
                         />
                         <Route
                             exact
-                            path="/intro"
+                            path="/overview"
                             render={() => (<IntroPage/>)}
                         />
                         <Route
