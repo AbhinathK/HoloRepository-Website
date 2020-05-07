@@ -13,7 +13,7 @@ class GroupMemberPage extends Component {
     render() {
         return (
             <div>
-                <SharedHeader activeItem='Group members'/>
+                <SharedHeader activeItem='Group members' />
                 <Segment vertical>
                     <Header
                         textAlign='center'
@@ -24,24 +24,23 @@ class GroupMemberPage extends Component {
                             fontWeight: 'normal',
                             marginBottom: 0,
                             marginTop: '2em',
-                        }}/>
-                    <Grid container style={{ padding: '5em 0em'}}>
+                        }} />
+                    <Grid container style={{ padding: '5em 0em' }}>
                         <Grid.Row>
-                            <p style={{padding: '0em 1em'}}>
+                            <p style={{ padding: '0em 1em' }}>
                                 (Sorted by alphabetical)
                             </p>
                         </Grid.Row>
                         <Grid.Row>
                             <Grid.Column width={3}>
-                                <Image src= "Images/niels.jpg" circular/>
+                                <Image src="Images/wenjie.png" circular />
                             </Grid.Column>
                             <Grid.Column width={13}>
                                 <Header as='h3' style={{ fontSize: '2em' }}>
-                                    Boecker, Niels
+                                    Alfred, Daren
                                 </Header>
-                                <p style={{ fontSize: '1.2em' }}><b>Team leader</b></p>
-                                <p style={{ fontSize: '1.2em' }}>Team leader</p>
-                                <p style={{ fontSize: '1.2em' }}><b>Email:</b> niels.boecker.18@ucl.ac.uk</p>
+                                <p style={{ fontSize: '1.2em' }}><b>HoloRegistration2020</b></p>
+                                <p style={{ fontSize: '1.2em' }}><b>Email:</b>daren.alfred.16@ucl.ac.uk</p>
                             </Grid.Column>
                         </Grid.Row>
 
@@ -49,20 +48,14 @@ class GroupMemberPage extends Component {
 
                         <Grid.Row>
                             <Grid.Column width={3}>
-                                <Image src= "Images/wenjie.png" circular/>
+                                <Image src="Images/wenjie.png" circular />
                             </Grid.Column>
                             <Grid.Column width={13}>
                                 <Header as='h3' style={{ fontSize: '2em' }}>
-                                    Boon, Wenjie
+                                    Baskaran, Immanuel
                                 </Header>
-                                <p style={{ fontSize: '1.2em' }}><b>Team member</b></p>
-                                <p style={{ fontSize: '1.2em' }}>
-                                    A web-based application that allows practitioners to browse their patients and manage the
-                                    generation of 3D models sourced from imaging studies like CT or MRI scans. The client-side
-                                    application is accompanied by an API server that is responsible for communicating with the
-                                    other components.
-                                </p>
-                                <p style={{ fontSize: '1.2em' }}><b>Email:</b> wenjie.boon.18@ucl.ac.uk</p>
+                                <p style={{ fontSize: '1.2em' }}><b>HoloPipelines Optimisations</b></p>
+                                <p style={{ fontSize: '1.2em' }}><b>Email:</b>immanuel.baskaran.16@ucl.ac.uk</p>
                             </Grid.Column>
                         </Grid.Row>
 
@@ -70,20 +63,14 @@ class GroupMemberPage extends Component {
 
                         <Grid.Row>
                             <Grid.Column width={3}>
-                                <Image src='https://react.semantic-ui.com/images/wireframe/image.png' circular/>
+                                <Image src='https://react.semantic-ui.com/images/wireframe/image.png' circular />
                             </Grid.Column>
                             <Grid.Column width={13}>
                                 <Header as='h3' style={{ fontSize: '2em' }}>
-                                    Boonyaprasert, Udomkarn
+                                    Kumar, Abhinath
                                 </Header>
-                                <p style={{ fontSize: '1.2em' }}><b>Team member</b></p>
-                                <p style={{ fontSize: '1.2em' }}>
-                                    A web-based application that allows practitioners to browse their patients and manage the
-                                    generation of 3D models sourced from imaging studies like CT or MRI scans. The client-side
-                                    application is accompanied by an API server that is responsible for communicating with the
-                                    other components.
-                                </p>
-                                <p style={{ fontSize: '1.2em' }}><b>Email:</b> udomkarn.boonyaprasert.17@ucl.ac.uk</p>
+                                <p style={{ fontSize: '1.2em' }}><b>System Architect</b></p>
+                                <p style={{ fontSize: '1.2em' }}><b>Email:</b>abhinath.kumar.16@ucl.ac.uk</p>
                             </Grid.Column>
                         </Grid.Row>
 
@@ -91,46 +78,19 @@ class GroupMemberPage extends Component {
 
                         <Grid.Row>
                             <Grid.Column width={3}>
-                                <Image src= "Images/fanbo.png" circular/>
+                                <Image src="Images/fanbo.png" circular />
                             </Grid.Column>
                             <Grid.Column width={13}>
                                 <Header as='h3' style={{ fontSize: '2em' }}>
-                                    Meng, Fanbo
+                                    Winkelhake, Carlo
                                 </Header>
-                                <p style={{ fontSize: '1.2em' }}><b>Team member</b></p>
-                                <p style={{ fontSize: '1.2em' }}>
-                                    A web-based application that allows practitioners to browse their patients and manage the
-                                    generation of 3D models sourced from imaging studies like CT or MRI scans. The client-side
-                                    application is accompanied by an API server that is responsible for communicating with the
-                                    other components.
-                                </p>
-                                <p style={{ fontSize: '1.2em' }}><b>Email:</b> fanbo.meng.18@ucl.ac.uk</p>
-                            </Grid.Column>
-                        </Grid.Row>
-
-                        <Divider />
-
-                        <Grid.Row>
-                            <Grid.Column width={3}>
-                                <Image src='https://react.semantic-ui.com/images/wireframe/image.png' circular/>
-                            </Grid.Column>
-                            <Grid.Column width={13}>
-                                <Header as='h3' style={{ fontSize: '2em' }}>
-                                    Wong, Ka Wai
-                                </Header>
-                                <p style={{ fontSize: '1.2em' }}><b>Team member</b></p>
-                                <p style={{ fontSize: '1.2em' }}>
-                                    A web-based application that allows practitioners to browse their patients and manage the
-                                    generation of 3D models sourced from imaging studies like CT or MRI scans. The client-side
-                                    application is accompanied by an API server that is responsible for communicating with the
-                                    other components.
-                                </p>
-                                <p style={{ fontSize: '1.2em' }}><b>Email:</b> ka.wong.18@ucl.ac.uk</p>
+                                <p style={{ fontSize: '1.2em' }}><b>Machine learning models</b></p>
+                                <p style={{ fontSize: '1.2em' }}><b>Email:</b>carlo.winkelhake.16@ucl.ac.uk</p>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
                 </Segment>
-                <SharedFooter/>
+                <SharedFooter />
             </div>
         );
     }
