@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37273a03af8bfe595fc2ea85bb24b1bc",
+    "revision": "777c8367520fe00cd4a2aa516c90b9ac",
     "url": "/HoloRepository-Website/index.html"
   },
   {
-    "revision": "8b4b7a9d6f32f4819f0f",
+    "revision": "23a90a22c6caf192a958",
     "url": "/HoloRepository-Website/static/css/main.eed2b97c.chunk.css"
   },
   {
@@ -12,15 +12,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HoloRepository-Website/static/js/2.3a8b4da0.chunk.js"
   },
   {
-    "revision": "8b4b7a9d6f32f4819f0f",
-    "url": "/HoloRepository-Website/static/js/main.dffc8919.chunk.js"
+    "revision": "23a90a22c6caf192a958",
+    "url": "/HoloRepository-Website/static/js/main.16a49b62.chunk.js"
   },
   {
     "revision": "30607049bdd94602d28c",
     "url": "/HoloRepository-Website/static/js/runtime~main.387ca11a.js"
   },
   {
-    "revision": "451c266ff2130c8a2e14c147f48a9eaf",
-    "url": "/HoloRepository-Website/static/media/background.451c266f.jpg"
+    "revision": "5ba96b99bf8bcfefec20650bf376e7c5",
+    "url": "/HoloRepository-Website/static/media/lung_capture_black.5ba96b99.png"
   }
 ]);
